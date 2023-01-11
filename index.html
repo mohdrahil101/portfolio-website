@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mohd. Rahil</title>
+    <link rel="shortcut icon" href="./files/aboutpic.png" type="image/x-icon">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Paytone+One&family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet"
+    href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
+</head>
+<body>
+    <nav>
+        <div class="logo">
+            <a href="#">Mohammad <span>Rahil</span></a>
+        </div>
+
+        <div class="menu">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+        <ul class="navlist">
+            <li><a href="#" onclick="check(this)">Home</a></li>
+            <li><a href="#about" onclick="check(this)">About</a></li>
+            <li><a href="#projects" onclick="check(this)">Projects</a></li>
+            <li><a href="#skills" onclick="check(this)">Skills</a></li>
+            <li><a href="#connect" onclick="check(this)">Connect</a></li>
+        </ul>
+    </nav>
+
+    <main>
+        <div class="hero">
+            <div class="container">
+
+                <div class="hero-text">
+                    <h2>Hey!</h2>
+                    <h1>I am <span class="textinput"></span></h1>
+                    <p>I love creating websites and android applications.</p>
+                    <div class="social-icons">
+                    <a href="https://www.facebook.com/mohd.rahil.blogger" target="_blank"><i class='bx bxl-facebook'></i></a>
+                    <a href="https://www.instagram.com/mohdrahil101" target="_blank"><i class='bx bxl-instagram' ></i></a>
+                    <a href="https://www.twitter.com/mohdrahil101" target="_blank"><i class='bx bxl-twitter' ></i></a>
+                    <a href="https://www.linkedin.com/in/mohdrahil101" target="_blank"><i class='bx bxl-linkedin' ></i></a>
+                    <a href="https://www.youtube.com/techdollarz" target="_blank"><i class='bx bxl-youtube' ></i></a>
+                    <a href="https://mohdrahil.wordpress.com" target="_blank"><i class='bx bxl-wordpress' ></i></a>
+                    <a href="https://www.github.com/mohdrahil101" target="_blank"><i class='bx bxl-github'></i></a>
+                    <a href="https://www.amazon.in/shop/mohdrahil101" target="_blank"><i class='bx bxl-amazon'></i></a>
+                    <a href="https://play.google.com/store/apps/dev?id=6185391641952918099&hl=en_IN&gl=US" target="_blank"><i class='bx bxl-play-store'></i></a>
+                    </div>
+                    <a href="#connect" class="detail">Connect with me</a>
+                </div>
+                <div class="pic">
+                <img src="./files/pic.png" alt="Image">
+                </div>
+                <div class="about" id="about">
+                    <h1>About</h1>
+                    <p>I am a student of B-tech Computer Science and Engineering who has just stepped into full stack web development. I am also a graphic designer with an eye for detail. With more than 8 years of experience in Photoshop, I have created many UI designs.<br>Email: <span>mdrahil327@gmail.com</span></p>
+                    <div class="pic1">
+                        <img src="./files/aboutpic.png" alt="Image">
+                        </div>
+                </div> 
+
+                <div class="about" id="projects">
+                    <h1>Projects</h1>
+                    <div class="one">
+
+                        <div class="box">
+                           <a href="https://github.com/mohdrahil101/firstflight-travels" target="_blank"><img src="./files/project1.jpg" alt="Firstflight Travels">
+                            <h4>Firstflight Travels</h4>
+                            <p>A travels website project created using HTML, CSS and JavaScript.</p>
+                           </a>
+                        </div>
+                        
+                    </div>
+                </div>
+
+            </div>
+            <div class="skills" id="skills">
+                <h1>Skills</h1>
+                <li>
+                    <h3>HTML</h3>
+                    <span class="bar"><span class="html"></span></span>
+                </li>
+                <li>
+                    <h3>CSS</h3>
+                    <span class="bar"><span class="css"></span></span>
+                </li>
+                <li>
+                    <h3>JavaScript</h3>
+                    <span class="bar"><span class="javascript"></span></span>
+                </li>
+                <li>
+                    <h3>Python</h3>
+                    <span class="bar"><span class="python"></span></span>
+                </li>
+                <li>
+                    <h3>C++</h3>
+                    <span class="bar"><span class="cpp"></span></span>
+                </li>
+                <li>
+                    <h3>Java</h3>
+                    <span class="bar"><span class="java"></span></span>
+                </li>
+                <li>
+                    <h3>Photoshop</h3>
+                    <span class="bar"><span class="photoshop"></span></span>
+                </li>
+                <li>
+                    <h3>Premiere Pro</h3>
+                    <span class="bar"><span class="premiere"></span></span>
+                </li>
+            </div>
+            
+            <div class="connect" id="connect">
+                <h1>Connect with me</h1>
+                <form onsubmit="sendMail(); reset();">
+                    <input type="text" name="names" id="name" placeholder="Your Name" required>
+                    <input type="email" name="emails" id="emailid" placeholder="Your E-mail" required>
+                    <textarea name="messages" id="message" placeholder="Your Message" cols="30" rows="10" required></textarea>
+                    <p id="msg"></p>
+                    <button type="submit" name="submitbtn">Send Message</button>
+                    
+                </form>
+            </div>
+    
+        </div>
+   
+    </main>
+
+    <footer>
+        <div class="tags"> mohdrahil | mohdrahil101 | mohammad rahil | mohd. rahil </div>
+
+        <p>Copyright © 2023 All rights reserved. <br> Built with <i class='bx bxs-heart'></i> by Mohd. Rahil</p>
+    </footer>
+
+    <!-- JavaScript -->
+
+    <!-- Animated Text -->
+    <script src="js/script.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+
+    <script type="text/javascript"
+        src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js">
+    </script>
+    
+    <script>
+        var typed=new Typed(".textinput", {strings:["Mohd. Rahil","a Student","a Web Developer","a Graphic Designer"], typeSpeed: 85, backSpeed: 65, loop:true
+    
+    });
+    </script>
+
+    <!-- Contact Form -->
+
+    <script src="https://smtpjs.com/v3/smtp.js"></script>
+
+    <script>
+        function sendMail(){
+            Email.send({
+                SecureToken : '7cf51154-d1dc-4e45-ab9a-c858a21160e0',
+                To : 'mdrahil327@gmail.com',
+                From : 'mdrahil327@gmail.com',
+                Subject : "New message from Portfolio Website!",
+                Body : "Email: "+ document.getElementById("emailid").value +"<br>Message: "+document.getElementById("message").value
+            }).then(document.getElementById("msg").innerHTML="Thanks for your message!");
+            
+        }
+
+    </script>
+
+</body>
+</html>
