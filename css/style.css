@@ -514,4 +514,8 @@ footer i{
     .connect form input,form textarea{
         width: 90%;
     }
+    .pic1 img{
+        height: 400px;
+        width: 400px;
+    }
 }
