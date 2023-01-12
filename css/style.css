@@ -480,25 +480,26 @@ footer i{
     .click span:last-child{
         transform: rotate(-40deg);
     }
-    .navlist{
-        position: absolute;
-        display: inline-block;
-        top: 68px;
-        right: -100%;
-        bottom: 0; 
-        width: 82%;
-        height: 1280px;
-        background-color:rgba(23,32,32,.9);
-        z-index: 2;
-        padding: 6% 9%;
-        transition: .3s right;
+    .logo{
+        display: none;
     }
-    nav ul li{
-        display:flex;
+    nav{
+        flex-direction: column;
+        /* text-align: center; */
+        height: 600px;
+        transition: .3s ease;
+        /* justify-content: center; */
+    }
+    .navlist{
+        flex-direction: column;
+        text-align: center;
+        padding-top: 50px;
+        z-index: 2;
+        transition: .4s ease;
+
     }
     nav ul li a{
         display: block;
-        text-align: center;
         font-size: 19px;
         font-weight: 500;
         margin-bottom: 40px;
@@ -528,5 +529,11 @@ footer i{
     .pic1 img{
         height: 400px;
         width: 400px;
+    }
+    .h-nav{
+        height: 25px;
+    }
+    .v-nav{
+        display: none;
     }
 }
