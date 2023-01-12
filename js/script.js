@@ -11,7 +11,7 @@ menu.addEventListener("click",function(){
 });
 
 function check(e){
-    menu.classList.toggle("click");
-    navlist.classList.toggle("clicked");
+    navbar.classList.toggle('h-nav');
+    navlist.classList.toggle("v-nav");
 }
 
