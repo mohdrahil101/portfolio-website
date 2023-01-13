@@ -4,7 +4,6 @@ var navbar=document.querySelector(".navbar");
 
 menu.addEventListener("click",function(){
     this.classList.toggle("click");
-    navlist.classList.toggle("clicked");
     navbar.classList.toggle('h-nav');
     navlist.classList.toggle("v-nav");
 
@@ -13,5 +12,6 @@ menu.addEventListener("click",function(){
 function check(e){
     navbar.classList.toggle('h-nav');
     navlist.classList.toggle("v-nav");
+    menu.classList.toggle("click");
 }
 
