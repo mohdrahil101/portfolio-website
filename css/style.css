@@ -199,6 +199,7 @@ main{
 
 .one{
     display: flex;
+   justify-content: center;
     margin-bottom: 100px;
 
 }
@@ -502,10 +503,9 @@ footer i{
     .navlist{
         flex-direction: column;
         text-align: center;
-        padding-top: 50px;
         width: 100%;
         z-index: 2;
-        transition: .4s ease;
+        transition: .4s ease-out;
         position: fixed;
     }
     nav ul li a{
@@ -542,9 +542,7 @@ footer i{
         width: 100%;
     }
     .about p{
-        /* padding-bottom: 100px; */
         font-size: 18px;
-        width: 100%;
     }
     .pic1 img{
         height: 350px;
@@ -558,6 +556,9 @@ footer i{
     }
     .social-icons{
         display: grid;
-        grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-rows: 1fr 1fr 1fr 1fr;
+        row-gap: 24px;
+       
     }
 }
