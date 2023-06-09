@@ -553,6 +553,10 @@ footer i{
         width: 100%;
         margin-bottom: 45px;
     }
+    iframe{
+        height: 100%;
+        width: 100%;
+    }
     .bar{
         margin-left: 0px;
         margin-right: 0px;
