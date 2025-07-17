@@ -289,23 +289,27 @@ main{
     animation: html 3s;
 }
 .css{
-    width: 75%;
+    width: 80%;
     animation: css 3s;
 }
 .javascript{
-    width: 62%;
+    width: 75%;
     animation: js 3s;
 }
+.node{
+    width:80%;
+    animation: node 3s;
+}
 .python{
-    width: 85%;
+    width: 65%;
     animation: python 3s;
 }
 .cpp{
-    width: 40%;
+    width: 80%;
     animation: cpp 3s;
 }
 .java{
-    width: 56%;
+    width: 70%;
     animation: java 3s;
 }
 .photoshop{
@@ -415,7 +419,7 @@ footer i{
         width: 0%;
     }
     100%{
-        width: 75%;
+        width: 80%;
     }
 }
 @keyframes js{
@@ -423,7 +427,15 @@ footer i{
         width: 0%;
     }
     100%{
-        width: 62%;
+        width: 75%;
+    }
+}
+@keyframes node{
+    0%{
+        width: 0%;
+    }
+    100%{
+        width: 80%;
     }
 }
 @keyframes python{
@@ -431,7 +443,7 @@ footer i{
         width: 0%;
     }
     100%{
-        width: 85%;
+        width: 65%;
     }
 }
 @keyframes cpp{
@@ -439,7 +451,7 @@ footer i{
         width: 0%;
     }
     100%{
-        width: 40%;
+        width: 80%;
     }
 }
 @keyframes java{
@@ -447,7 +459,7 @@ footer i{
         width: 0%;
     }
     100%{
-        width: 56%;
+        width: 70%;
     }
 }
 @keyframes ps{
